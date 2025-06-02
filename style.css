@@ -183,3 +183,10 @@ footer {
     gap: 15px;
   }
 }
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 3px solid #cc0000;
+  box-shadow: 0 5px 20px rgba(204, 0, 0, 0.4);
+}
