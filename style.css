@@ -1,17 +1,31 @@
+/* フォント読み込み済み想定（HTML側でリンク） */
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Playfair Display', serif;
   margin: 0;
-  padding: 0;
-}
-header {
-  background-color: #900;
-  padding: 20px;
-  text-align: center;
-}
-nav a {
+  font-family: 'Playfair Display', serif;
+  background-color: #0a0a0a;
   color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+  line-height: 1.6;
 }
+
+a {
+  color: #e60033;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #ff3366;
+}
+
+header {
+  background-color: #000;
+  border-bottom: 2px solid #e60033;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  font-size:
