@@ -1,4 +1,4 @@
-/* フォント読み込み済み想定（HTML側でリンク） */
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
